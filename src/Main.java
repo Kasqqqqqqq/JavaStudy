@@ -58,14 +58,22 @@ public class Main {
 
         /**
          * 测试枚举类型
-          */
+         */
         //System.out.println(Code.TEST_CODE.code);
 
-        System.out.println(String.format("%,d",123123123));
+        //System.out.println(String.format("%,d",123123123));
+
+        Integer integer1 = new Integer(100);
+        Integer integer2 = new Integer(100);
+
+        Integer i6 = 127;
+        Integer i7 = 127;
+
+        System.out.println(i6 == i7);
     }
 
-    protected enum Code{
-        TEST_CODE("num",101);
+    protected enum Code {
+        TEST_CODE("num", 101);
         String name;
         int code;
 
